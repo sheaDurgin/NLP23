@@ -4,6 +4,13 @@ In this notebook, we will be performing sentiment analysis on tweets about airli
 
 The dataset contains 14,772 tweets, although we ignore ones with words that aren't in the Word2Vec model. Each tweet is labeled as positive, negative, or neutral. We will be treating this as a classification problem and building a model that can classify each tweet into one of the three sentiment categories.
 
+## Table of Contents
+
+- [Data-Preprocessing](#Data Preprocessing)
+- [Model-Architecture](#Model Architecture)
+- [Results](#Results)
+- [Conclusion](#Conclusion)
+
 ## Data Preprocessing
 
 First, we will load the dataset and perform some basic preprocessing steps. We will convert all the text to lowercase, remove any URLs, Twitter handles, and any non-alphabetic characters. We will also tokenize the tweets and pad the sequences to a fixed length of 16.
