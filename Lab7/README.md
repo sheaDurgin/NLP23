@@ -6,7 +6,7 @@ The dataset contains 14,772 tweets, although we ignore ones with words that aren
 
 ## Table of Contents
 
-- [Data Preprocessing](#Data_Preprocessing)
+- [Data Preprocessing](Data_Preprocessing)
 - [Model Architecture](<#Model Architecture>)
 - [Results](#Results)
 - [Conclusion](#Conclusion)
