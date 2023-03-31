@@ -5,11 +5,11 @@ As well as implementing the OpenAI package to send prompts to the GPT-3 language
 
 ## Table of Contents
 
-- [Installation](#installation)
+- [Installation](#installation words)
 - [Usage](#usage)
 - [Contact](#contact)
 
-## Installation
+## Installation words
 
 To install and run this project on your local machine, please follow the steps below:
 
