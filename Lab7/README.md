@@ -6,12 +6,12 @@ The dataset contains 14,772 tweets, although we ignore ones with words that aren
 
 ## Table of Contents
 
-- [Data Preprocessing](#Data%20Preprocessing)
+- [Data Preprocessing](#Data)
 - [Model Architecture](<#Model Architecture>)
 - [Results](#Results)
 - [Conclusion](#Conclusion)
 
-## Data%20Preprocessing
+## Data Preprocessing
 
 First, we will load the dataset and perform some basic preprocessing steps. We will convert all the text to lowercase, remove any URLs, Twitter handles, and any non-alphabetic characters. We will also tokenize the tweets and pad the sequences to a fixed length of 16.
 
