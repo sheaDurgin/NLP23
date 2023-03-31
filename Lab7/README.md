@@ -13,6 +13,7 @@ The dataset contains 14,772 tweets, although we ignore ones with words that aren
 - [Conclusion](#Conclusion)
 
 ## Installation
+
 To run this notebook, you will need to install the following libraries:
 
     torch
@@ -25,7 +26,12 @@ To run this notebook, you will need to install the following libraries:
 You can install them using pip:
 
     pip install torch numpy pandas scikit-learn nltk matplotlib 
+    
+## Usage
 
+- Download the Twitter US Airline Sentiment dataset from Kaggle.
+- Run the notebook cells to preprocess the data, train the model, and evaluate its performance.
+- Use the trained model to classify new tweets into sentiment categories.
 
 ## Data Preprocessing
 
