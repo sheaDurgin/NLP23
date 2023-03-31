@@ -6,10 +6,25 @@ The dataset contains 14,772 tweets, although we ignore ones with words that aren
 
 ## Table of Contents
 
-- [Data Preprocessing](#Data-Preprocessing)
-- [Model Architecture](<#Model-Architecture>)
+- [Installation](#Installation)
+- [Data-Preprocessing](#Data-Preprocessing)
+- [Model-Architecture](#Model Architecture)
 - [Results](#Results)
 - [Conclusion](#Conclusion)
+
+## Installation
+To run this notebook, you will need to install the following libraries:
+
+    torch
+    numpy
+    pandas
+    scikit-learn
+    nltk
+    matplotlib
+
+You can install them using pip:
+pip install torch numpy pandas scikit-learn nltk matplotlib 
+
 
 ## Data Preprocessing
 
