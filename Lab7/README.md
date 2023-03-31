@@ -2,7 +2,7 @@
 
 In this notebook, we will be performing sentiment analysis on tweets about airlines using a Long Short-Term Memory (LSTM) neural network. The dataset we will be using is the Twitter US Airline Sentiment dataset from Kaggle.
 
-The dataset contains 14,772 tweets, although we ignore ones with words that aren't in the Word2Vec model. Each tweet is labeled as positive, negative, or neutral. We will be treating this as a classification problem and building a model that can classify each tweet into one of the three sentiment categories.
+The dataset contains 14,772 tweets. Each tweet is labeled as positive, negative, or neutral. We will be treating this as a classification problem and building a model that can classify each tweet into one of the three sentiment categories.
 
 ## Table of Contents
 
