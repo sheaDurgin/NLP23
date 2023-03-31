@@ -9,7 +9,7 @@ As well as implementing the OpenAI package to send prompts to the GPT-3 language
 - [Usage](#usage)
 - [Contact](#contact)
 
-## Installation words
+## Installation
 
 To install and run this project on your local machine, please follow the steps below:
 
