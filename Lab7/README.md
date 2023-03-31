@@ -23,6 +23,7 @@ To run this notebook, you will need to install the following libraries:
     matplotlib
 
 You can install them using pip:
+
     pip install torch numpy pandas scikit-learn nltk matplotlib 
 
 
