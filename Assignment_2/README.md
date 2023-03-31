@@ -5,7 +5,7 @@ As well as implementing the OpenAI package to send prompts to the GPT-3 language
 
 ## Table of Contents
 
-- [Installation](#installation_words)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Contact](#contact)
 
