@@ -51,7 +51,7 @@ We will be using the pre-trained RoBERTa model to classify the tweets into senti
 
 ## Results
 
-After training the model, we will evaluate its performance on the test set on its prediction accuracy.
+After fine-tuning the model, we will evaluate its performance on the test set on its prediction accuracy.
 
     Accuracy : 89.7
 
