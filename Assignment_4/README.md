@@ -39,7 +39,7 @@ You can install them using pip:
 
 ## Results
 
-The results of the project are presented in the notebook, including MRR and p@1 scores.
+The results of the project are presented in the notebook and PDF, including MRR and p@1 scores.
 
 ## Conclusion
 
