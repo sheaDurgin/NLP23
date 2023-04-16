@@ -43,4 +43,4 @@ The results of the project are presented in the notebook, including MRR and p@1 
 
 ## Conclusion
 
-In conclusion, we have explored different NLP techniques to predict duplicate forum questions. The results show that fine-tuning a pre-trained BERT model may not provide much to any benefit to your MRR and/or p@1 score. Also, it showed that a pre-trained model on the exact task you are doing may be better than a pre-trained model trained on a more matching corpus.
+In conclusion, we have explored different NLP techniques to predict duplicate forum questions. The results show that fine-tuning a pre-trained BERT model may not provide much to any benefit to your MRR and/or p@1 score. Also, it showed that a pre-trained model on the exact task you are doing may be better than a pre-trained model trained on a more matching corpus (legal-bert). Interestingly, the legal-bert test showed a meaningful increase to fine-tuning the model. However, I am unable to determine which scores are outliers and where the true average increase/decrease would land as this is a very limited test.
