@@ -43,4 +43,4 @@ The results of the project are presented in the notebook, including MRR and p@1 
 
 ## Conclusion
 
-In conclusion, we have explored different NLP techniques to predict duplicate forum questions. The results show that fine-tuning a pre-trained BERT model can provide a benefit to your MRR result, and in this certain instance bring down the p@1 score. Also, it showed that a pre-trained model on the exact task you are doing may be better than a pre-trained model trained on a more matching corpus.
+In conclusion, we have explored different NLP techniques to predict duplicate forum questions. The results show that fine-tuning a pre-trained BERT model may not provide much to any benefit to your MRR and/or p@1 score. Also, it showed that a pre-trained model on the exact task you are doing may be better than a pre-trained model trained on a more matching corpus.
