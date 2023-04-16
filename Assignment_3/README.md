@@ -24,7 +24,7 @@ Open the folder containing the project files in a code editor or IDE such as Vis
 
 Install Jupyter Notebook and its dependencies on your local machine. One way to do this is by installing Anaconda, which includes Jupyter as well as many other commonly used Python packages.
 
-Open the Assignment_Notebook.ipynb file in Jupyter Notebook by typing the following command in your terminal or Anaconda prompt: jupyter notebook NLP_Assignment_2.ipynb
+Open the Assignment_Notebook.ipynb file in Jupyter Notebook by typing the following command in your terminal or Anaconda prompt: jupyter notebook NLP_Assignment_3.ipynb
 
 Run each code cell in the notebook file in order to execute the code.
 
