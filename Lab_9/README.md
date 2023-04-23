@@ -24,9 +24,17 @@ Install Jupyter Notebook and its dependencies on your local machine. One way to 
 
 Open the Lab_9_PyTerrier.ipynb file in Jupyter Notebook by typing the following command in your terminal or Anaconda prompt: jupyter notebook Lab_9_PyTerrier.ipynb
 
-Run each code cell in the notebook file in order to execute the code.
+To run this notebook, you will need to install the following libraries:
 
-Please note that this project requires Python 3.6 or higher, as well as several Python packages including pyterrier, pandas, and ranx
+    pyterrier
+    pandas
+    ranx
+
+You can install them using pip:
+
+    pip install pyterrier pandas ranx
+
+Run each code cell in the notebook file in order to execute the code.
 
 ## Results
 
