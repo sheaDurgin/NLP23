@@ -11,3 +11,7 @@ the combined text file is the result of combine_score.py when using the nbt file
 
 you can run pyterrier_and_bert.py with no arguments. need to manually change directories and names of output files in code
 combine_score.py takes 3 arguments, [filename] [other_filename] [new_output_filename]
+
+current results:
+ ndgc - 0.13462455213040198
+ map  - 0.10312255865483222
