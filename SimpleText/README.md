@@ -9,7 +9,7 @@
 the nbt text files are the two text files made in pyterrier_and_bert.py
 the combined text file is the result of combine_score.py when using the nbt files for the arguments
 
-you can run pyterrier_and_bert.py with no arguments. need to manually change directories and names of output files in code
+pyterrier_and_bert.py takes 2 arguments, any combination or bert, pyterrier, or _. bert will run the bert model, pyterrier will run pyterrier, use _ in place of either if you don't want to run such section. need to manually change directories and names of output files in code
 combine_score.py takes 3 arguments, [filename] [other_filename] [new_output_filename]
 
 # current results:
