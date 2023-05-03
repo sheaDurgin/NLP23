@@ -42,8 +42,8 @@ Clone the repository all to one folder to properly run. Directories may need to 
 - Download the jsons using download_elastic.py
 - Read the jsons to a baseline results txt file using readJSON.py
 - Run cross_encoder.py with the baseline results file and new results file as arguments
-- Run evaluation.py with the new results file as the argument
-- Run get_readability_scores_with_json.py with the new results file as the argument
+- Run evaluation.py with the new results file (use the combined and normalized version) as the argument
+- Run get_readability_scores_with_json.py with the new results file (use the combined and normalized version) as the argument
 
 ## Model and Results
 
