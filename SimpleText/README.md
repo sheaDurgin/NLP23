@@ -5,12 +5,10 @@ This repository includes all of the programs and optimal results for my team's (
 ## Table of Contents
 
 - [Installation](#Installation)
-- [Text-Files](#Text-Files)
-- [Steps-to-Run](#Steps-to-Run)
-- [Model-and-Results](#Model-and-Results)
-- [Top 100 Baseline Results](#Top-100-Per-Query-Baseline-Results)
-- [Selective Baseline Results](#Selective-Baseline-Results-(Gives-less-total-results))
-- [Our-Results](#Our-Results)
+- [Text Files](#Text-Files)
+- [Steps to Run](#Steps-to-Run)
+- [Model Details](#Model-Details)
+- [Results](#Top-100-Per-Query-Baseline-Results)
 - [Conclusion](#Conclusion)
 
 ## Installation
@@ -50,7 +48,7 @@ Clone the repository all to one folder to properly run. Directories may need to 
 - Run evaluation.py with the new results file from normalize.py as the argument
 - Run get_readability_scores_with_json.py with the new results file (use the combined and normalized version) as the argument
 
-## Model and Results
+## Model Details
 
 Our final results come from a combination of the ms-marco-electra-base cross encoder and the two baseline results from elastic search. The cross encoder does its own reranking of the top 100 results from elastic search, then that output is directed into a comination program that does a final reranking using a combination of the cross encoder ranking and the selective baseline results. This results in higher NDCG and MAP scores than any of the individual results.
 
