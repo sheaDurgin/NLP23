@@ -56,6 +56,8 @@ def fast_readability(doc_ids, topic):
     abstracts_dic = json_abstracts(doc_ids, topic)
     for doc_id in doc_ids:
         abstract = abstracts_dic[doc_id]
+        if abstract == None:
+            continue
         dic_readability_scores[doc_id] = {
             "flesch": textstat.flesch_reading_ease(abstract),
             "smog": textstat.smog_index(abstract),
