@@ -2,7 +2,7 @@ import requests
 import csv
 import json
 
-target_dir = "jsons/"
+target_dir = "Top-2000_InitialQuery/"
 with open("SP12023topics.csv", "r") as f:
     reader = csv.reader(f, delimiter=";")
     next(reader)
