@@ -1,10 +1,11 @@
 # SimpleText Task 1
 
-This repository includes all of the programs and optimal results for my team's (comprised of SJ Franklin and I, Shea Durgin) submission for SimpleText Task 1.
+This repository includes all of the programs and optimal results for my team's (Team Donut Graph, comprised of SJ Franklin and I, Shea Durgin) submission for SimpleText Task 1.
 
 ## Table of Contents
 
 - [Installation](#Installation)
+- [Text-Files](#Text-Files)
 - [Steps-to-Run](#Steps-to-Run)
 - [Model-and-Results](#Model-and-Results)
 - [Baseline-Results](#Baseline-Results)
@@ -29,6 +30,11 @@ You can install them using pip:
     pip install torch tqdm sentence_transformers transformers textstat ranx
     
 Clone the repository all to one folder to properly run. Directories may need to be changed to fit your machine.
+
+## Text Files
+- elastic_baseline_results.txt -> Unmodified results from elastic search of queries
+- donut_graph_run1.txt -> Reranking of baseline by cross encoder
+- donut_graph_run1_combined_with_baseline_n.txt -> Normalized combined results 
 
 ## Steps to Run
 
