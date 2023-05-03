@@ -32,17 +32,19 @@ You can install them using pip:
 Clone the repository all to one folder to properly run. Directories may need to be changed to fit your machine.
 
 ## Text Files
-- elastic_baseline_results.txt -> Unmodified results from elastic search of queries
-- donut_graph_run1.txt -> Reranking of baseline by cross encoder
-- donut_graph_run1_combined_with_baseline_n.txt -> Normalized combined results 
+- top_100_per_query_baseline.txt -> the top 100 results from elastic search for each query
+- selective_baseline.txt -> the maybe top 100 results from elastic search for each query (no work done to get extra results)
+- donut_graph_electra_base.txt -> results from cross_encoder.py using top_100_per_query_baseline.txt as argument
+- donut_graph_run1_final_results.txt -> results from combine_scores.py using donut_graph_electra_base.txt and selective_baseline.txt
 
 ## Steps to Run
 
 - Get the SimpleText dataset from CLEF
-- Download the jsons using download_elastic.py
-- Read the jsons to a baseline results txt file using readJSON.py
-- Run cross_encoder.py with the baseline results file and new results file as arguments
-- Run evaluation.py with the new results file (use the combined and normalized version) as the argument
+- Download the jsons using both download_elastic files
+- Read the jsons to two baseline results txt file using readJSON.py on both json directories
+- Run cross_encoder.py with the baseline results file made from the top 2000 jsons and new results file as arguments
+- Run combine_scores.py with the new results file as the first argument and the selective baseline as the second argument
+- Run evaluation.py with the new results file from combine_scores.py as the argument
 - Run get_readability_scores_with_json.py with the new results file (use the combined and normalized version) as the argument
 
 ## Model and Results
