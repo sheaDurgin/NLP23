@@ -78,4 +78,4 @@ Our final results come from a combination of the ms-marco-electra-base cross enc
 
 ## Conclusion
 
-With the use of a cross encoder and a combination algorithm, we were able to improve the baseline results. If we were to continue on the project, we would attempt to fine-tune the cross encoder on the labelled data and implement a way to select more readable passages than just the entire abstract (as our current implementation has no improvement in the readability department). 
+With the use of a cross encoder and a combination algorithm, we were able to improve the baseline results in both NDCG@10 and MAP scores. If we were to continue on the project, we would attempt to fine-tune the cross encoder on the labelled data and implement a way to select more readable passages than just the entire abstract (as our current implementation has no improvement in the readability department). 
