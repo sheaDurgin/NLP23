@@ -57,25 +57,25 @@ Our final results come from a combination of the ms-marco-electra-base cross enc
 
     NDCG@10: 0.366
     MAP: 0.432
-    flesch average: 31.58531276140922
-    smog average: 14.593094153731943
-    Coleman Liau average: 15.39346035876951
+    flesch average: 31.585
+    smog average: 14.593
+    Coleman Liau average: 15.393
     
 ## Selective Baseline Results (Gives less total results)
 
     NDCG@10: 0.399
     MAP: 0.461
-    flesch average: 31.58531276140922
-    smog average: 14.593094153731943
-    Coleman Liau average: 15.39346035876951
+    flesch average: 31.585
+    smog average: 14.593
+    Coleman Liau average: 15.393
 
 ## Our Results
 
     NDCG@10: 0.465
     MAP: 0.507
-    flesch average: 31.585312761409227
-    smog average: 14.593094153731947
-    Coleman Liau average: 15.39346035876951
+    flesch average: 31.585
+    smog average: 14.593
+    Coleman Liau average: 15.393
 
 ## Conclusion
 
