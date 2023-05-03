@@ -51,7 +51,7 @@ Clone the repository all to one folder to properly run. Directories may need to 
 
 ## Model and Results
 
-Our final results come from a combination of the ms-marco-electra-base cross encoder and the intial baseline results from elastic search. The cross encoder does its own reranking of the initial results from elastic search, then that output is directed into a comination program that does a final reranking using a combination of their scores. This results in higher NDCG and MAP scores than both individual results.
+Our final results come from a combination of the ms-marco-electra-base cross encoder and the two baseline results from elastic search. The cross encoder does its own reranking of the top 100 results from elastic search, then that output is directed into a comination program that does a final reranking using a combination of the cross encoder ranking and the selective baseline results. This results in higher NDCG and MAP scores than any of the individual results.
 
 ## Baseline Results
 
