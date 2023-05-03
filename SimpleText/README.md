@@ -24,10 +24,11 @@ The necessary installs for the code are as such
     transformers
     textstat
     ranx
+    markdown
 
 You can install them using pip:
 
-    pip install torch tqdm sentence_transformers transformers textstat ranx
+    pip install torch tqdm sentence_transformers transformers textstat ranx markdown
     
 Clone the repository all to one folder to properly run. Directories may need to be changed to fit your machine.
 
