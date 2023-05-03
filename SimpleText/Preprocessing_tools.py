@@ -3,6 +3,11 @@ import json
 import os
 import markdown
 
+def read_json(filename: str):
+    # reads one json file
+    with open(filename) as f_in:
+        return json.load(f_in)
+
 def read_all_jsons(target_dir):
     # takes in teh directory of topics and return dictionary of topics with id corresponding to qrel files
     dict_top_res = {}
