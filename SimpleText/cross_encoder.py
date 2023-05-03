@@ -1,14 +1,11 @@
-import string
 import json
-import requests
 from Preprocessing_tools import *
-from sentence_transformers import util, CrossEncoder
+from sentence_transformers import CrossEncoder
 import torch
 import sys
-from torch.utils.data import Dataset
 from tqdm import tqdm
 import signal
-from transformers import AutoTokenizer, AutoModel
+from transformers import AutoTokenizer
 
 def handle_sigint(signum, frame):
     # do nothing
