@@ -1,5 +1,4 @@
 import json
-#from readability import Readability
 import textstat
 import requests
 import sys
