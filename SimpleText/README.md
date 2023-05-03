@@ -53,7 +53,15 @@ Clone the repository all to one folder to properly run. Directories may need to 
 
 Our final results come from a combination of the ms-marco-electra-base cross encoder and the two baseline results from elastic search. The cross encoder does its own reranking of the top 100 results from elastic search, then that output is directed into a comination program that does a final reranking using a combination of the cross encoder ranking and the selective baseline results. This results in higher NDCG and MAP scores than any of the individual results.
 
-## Baseline Results
+## Top 100 Per Query Baseline Results
+
+    NDCG@10: 0.366
+    MAP: 0.432
+    flesch average: 31.58531276140922
+    smog average: 14.593094153731943
+    Coleman Liau average: 15.39346035876951
+    
+## Selective Baseline Results (Gives less total results)
 
     NDCG@10: 0.399
     MAP: 0.461
