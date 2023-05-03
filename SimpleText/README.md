@@ -14,9 +14,7 @@ This repository includes all of the programs and optimal results for my team's (
 
 ## Installation
 
-To run this code, you will need access to the dataset for task 1 of SimpleText CLEF lab, and login details to access their servers. 
-    http://simpletext-project.com/2023/clef/
-I will be assuming you have access for the rest of the explanation.
+To run this code, you will need access to the [dataset](http://simpletext-project.com/2023/clef/) for task 1 of SimpleText CLEF lab, and login details to access their servers. I will be assuming you have access for the rest of the explanation.
 
 The necessary installs for the code are as such
 
