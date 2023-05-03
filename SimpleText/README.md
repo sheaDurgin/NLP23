@@ -8,7 +8,7 @@ This repository includes all of the programs and optimal results for my team's (
 - [Text-Files](#Text-Files)
 - [Steps-to-Run](#Steps-to-Run)
 - [Model-and-Results](#Model-and-Results)
-- [Baseline-Results](#Baseline-Results)
+- [Top-100-Per-Query-Baseline-Results](#Baseline-Results)
 - [Our-Results](#Our-Results)
 - [Conclusion](#Conclusion)
 
