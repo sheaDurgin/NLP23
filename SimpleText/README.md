@@ -61,8 +61,8 @@ Our final results come from a combination of the ms-marco-electra-base cross enc
 
 ## Our Results
 
-    NDCG@10: 0.464
-    MAP: 0.505
+    NDCG@10: 0.465
+    MAP: 0.507
     flesch average: 31.585312761409227
     smog average: 14.593094153731947
     Coleman Liau average: 15.39346035876951
