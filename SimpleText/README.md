@@ -67,8 +67,16 @@ Our final results come from a combination of the ms-marco-electra-base cross enc
     flesch average: 31.585
     smog average: 14.593
     Coleman Liau average: 15.393
+    
+## Electra Reranking Results
 
-## Our Results
+    NDCG@10: 0.312
+    MAP: 0.314
+    flesch average: 31.585
+    smog average: 14.593
+    Coleman Liau average: 15.393
+
+## Final Combination Results
 
     NDCG@10: 0.465
     MAP: 0.507
