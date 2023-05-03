@@ -24,4 +24,6 @@ with open("baseline.txt", "w") as b:
                 doc_id = hit['_id']
                 score = hit['_score']
                 b.write(f"{topic_id} 1 {doc_id} {rank} {score} elastic\n")
-                rank += 1            
+                rank += 1  
+                if rank > 100:
+                    break
