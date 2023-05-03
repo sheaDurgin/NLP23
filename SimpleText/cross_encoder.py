@@ -9,7 +9,6 @@ from torch.utils.data import Dataset
 from tqdm import tqdm
 import signal
 from transformers import AutoTokenizer, AutoModel
-import subprocess
 
 def handle_sigint(signum, frame):
     # do nothing
@@ -24,9 +23,9 @@ def sigmoid(x):
 def json_abstracts(doc_ids, topic):
     json_path = ""
     # find the JSON file that contains the topic string in its filename
-    for filename in os.listdir("jsons/"):
+    for filename in os.listdir("Top-2000_InitialQuery/"):
         if topic in filename:
-            json_path = os.path.join("jsons/", filename)
+            json_path = os.path.join("Top-2000_InitialQuery/", filename)
             break
     else:
         raise ValueError(f"No JSON file found for topic '{topic}'")
@@ -130,20 +129,8 @@ def main():
     print("CrossEncoder ranking")
     cross_encoder_ranked_docs = cross_encoder_ranking(topic_dic, read_file, model, tokenizer)
 
-    os.environ["TOKENIZERS_PARALLELISM"] = "false"
-
     print("Writing CrossEncoder ranked file")
     write_rankings(cross_encoder_ranked_docs, results_file)
-    combined_file = os.path.splitext(results_file)[0] + "_combined_with_baseline.txt"
-
-    # Combine then normalize results
-    if os.path.exists("combine_scores.py"):
-        subprocess.run(["python", "combine_scores.py", results_file, read_file, combined_file])
-
-        combined_and_normalized_file = os.path.splitext(combined_file)[0] + "_n.txt"
-
-        if os.path.exists("normalize.py"):
-            subprocess.run(["python", "normalize.py", combined_file, combined_and_normalized_file])
 
 if __name__ == "__main__":
     main()
