@@ -42,6 +42,7 @@ Clone the repository all to one folder to properly run. Directories may need to 
 - Get the SimpleText dataset from CLEF
 - Download the jsons using both download_elastic files
 - Read the jsons to two baseline results txt file using readJSON.py on both json directories
+- Run normalize.py with the selective baseline results as the first argument and a new filename as the second argument
 - Run cross_encoder.py with the baseline results file made from the top 2000 jsons and new result filename as arguments
 - Run combine_scores.py with the new results file as the first argument and the selective baseline as the second argument, name of new file as third argument
 - Run normalize.py with the new results from combine_scores.py as the first argument and new filename as second argument
