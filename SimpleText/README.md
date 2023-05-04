@@ -44,7 +44,7 @@ Clone the repository all to one folder to properly run. Directories may need to 
 - Read the jsons to two baseline results txt file using readJSON.py on both json directories
 - Run normalize.py with the selective baseline results as the first argument and a new filename as the second argument
 - Run cross_encoder.py with the baseline results file made from the top 2000 jsons and new result filename as arguments
-- Run combine_scores.py with the new results file as the first argument and the selective baseline as the second argument, name of new file as third argument
+- Run combine_scores.py with the new results file as the first argument and the normalized selective baseline as the second argument, name of new file as third argument
 - Run normalize.py with the new results from combine_scores.py as the first argument and new filename as second argument
 - Run evaluation.py with the new results file from normalize.py as the argument
 - Run get_readability_scores_with_json.py with the new results file (use the combined and normalized version) as the argument
